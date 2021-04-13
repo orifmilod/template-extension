@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Template generator</title>
+    <script src="popup.js"></script>
+    <style>
+        body {
+            width: 200px;
+        }
+        .container{
+            display: grid;
+            grid-gap: 5px;
+        }
+        button {
+            border-radius: 5px;
+            border: 0;
+            color: white;
+            padding: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            filter: grayscale(30%);
+        }
+        #spike{
+          background: blue;
+        }
+        #story {
+          background: green;
+        }
+    </style>
+  </head>
+  <body>
+    <h3>Copy a template</h3>
+    <div class='container'>
+        <button id="spike">Spike template</button>
+        <button id="story">Story template</button>
+    </div>
+  </body>
+</html>
